@@ -4,14 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { HeaderComponent } from './header/header.component';
+import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { HeaderComponent } from './components/header/header.component';
+import { BooksComponent } from './components/books/books.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
-    HeaderComponent
+    HeaderComponent,
+    BooksComponent
   ],
   imports: [
     BrowserModule,
