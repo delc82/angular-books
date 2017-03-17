@@ -8,11 +8,14 @@ import { BooksService } from '../../shared/books.service';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-  id: string;
+  id: number;
+  sub: any;
   books = [];
 
   constructor(private route: ActivatedRoute, private booksService: BooksService) { 
-    this.id = this.route.snapshot.params['id'];
+    this.sub = this.route.params.subscribe(params => {
+       this.id = +params['id'];
+    });
   }
 
   ngOnInit() {
