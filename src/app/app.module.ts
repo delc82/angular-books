@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BooksComponent } from './components/books/books.component';
+import { BooksService } from './shared/books.service';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { BooksComponent } from './components/books/books.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [BooksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
