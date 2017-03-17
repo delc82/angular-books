@@ -1,7 +1,7 @@
 <div class="col-sm-3 col-sm-offset-1 sidebar">
   <div class="sidebar-module">
-    <ul class="list-unstyled" *ngFor="let book of books">
-      <li><p><a routerLink="book/{{book.id}}" class="btn btn-default btn-lg btn-block">{{ book.title }}</a></p></li>
+    <ul class="list-unstyled" *ngFor="let book of books; let i = index">
+      <li><p><a routerLink="book/{{i}}" class="btn btn-default btn-lg btn-block">{{ book.title }}</a></p></li>
     </ul>
   </div>
 </div>

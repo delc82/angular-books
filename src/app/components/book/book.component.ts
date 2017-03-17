@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router'; 
 import { BooksService } from '../../shared/books.service';
 
 @Component({
@@ -7,10 +8,12 @@ import { BooksService } from '../../shared/books.service';
   styleUrls: ['./book.component.css']
 })
 export class BookComponent implements OnInit {
-
+  id: string;
   books = [];
 
-  constructor(private booksService: BooksService) { }
+  constructor(private route: ActivatedRoute, private booksService: BooksService) { 
+    this.id = this.route.snapshot.params['id'];
+  }
 
   ngOnInit() {
     this.books = this.booksService.getBooks();
