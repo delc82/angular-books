@@ -7,7 +7,7 @@ import { router } from './app.router';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { HeaderComponent } from './components/header/header.component';
-import { BooksComponent } from './components/books/books.component';
+import { BookComponent } from './components/book/book.component';
 import { BooksService } from './shared/books.service';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { BooksService } from './shared/books.service';
     AppComponent,
     SidenavComponent,
     HeaderComponent,
-    BooksComponent
+    BookComponent
   ],
   imports: [
     BrowserModule,

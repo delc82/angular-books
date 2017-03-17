@@ -1,10 +1,10 @@
 import { Routes, RouterModule } from '@angular/router';
 
-import { BooksComponent } from './components/books/books.component';
+import { BookComponent } from './components/book/book.component';
 
 const APP_ROUTER: Routes = [
-    {path: '', redirectTo: 'books/:id', pathMatch: 'full'},
-    {path: 'books/:id', component: BooksComponent}
+    {path: '', redirectTo: 'book/1', pathMatch: 'full'},
+    {path: 'book/:id', component: BookComponent}
 ];
 
 export const router = RouterModule.forRoot(APP_ROUTER);

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { BooksService } from '../../shared/books.service';
 
 @Component({
-  selector: 'app-sidenav',
-  templateUrl: './sidenav.component.html',
-  styleUrls: ['./sidenav.component.css']
+  selector: 'app-books',
+  templateUrl: './book.component.html',
+  styleUrls: ['./book.component.css']
 })
-export class SidenavComponent implements OnInit {
+export class BookComponent implements OnInit {
 
   books = [];
 
