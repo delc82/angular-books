@@ -6,7 +6,7 @@ export class BooksService {
       id: 1,
       title: 'Angular in Action',
       description: 'When developers move beyond building simple web sites or small applications, things get complicated. Managing data gets messy, handling browser incompatibilities takes time, juggling competing user interactions and integrating the work of multiple developers gets tricky. The Angular 2 framework handles these common problems, making it ideal for writing large-scale web applications that can be maintained, extended, and tested. Because it\'s popular, it offers a well-supported code base, vibrant community, and rich ecosystem. Best of all, Angular 2 emphasizes performance and focuses on mobile apps by being compact and memory efficient.',
-      rating: 5
+      rating: 4
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export class BooksService {
       id: 3,
       title: 'MongoDB The Guide',
       description: 'Manage the huMONGOus amount of data collected through your web application with MongoDB. This authoritative introduction—written by a core contributor to the project—shows you the many advantages of using document-oriented databases, and demonstrates how this reliable, high-performance system allows for almost infinite horizontal scalability. This updated second edition provides guidance for database developers, advanced configuration for system administrators, and an overview of the concepts and use cases for other people on your project. Ideal for NoSQL newcomers and experienced MongoDB users alike, this guide provides numerous real-world schema design examples.',
-      rating: 4
+      rating: 3
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ export class BooksService {
       id: 5,
       title: 'Start with Why',
       description: 'The inspiring, life-changing bestseller by the author of LEADERS EAT LAST and TOGETHER IS BETTER. In 2009, Simon Sinek started a movement to help people become more inspired at work, and in turn inspire their colleagues and customers. Since then, millions have been touched by the power of his ideas, including more than 28 million who’ve watched his TED Talk based on START WITH WHY -- the third most popular TED video of all time. Sinek starts with a fundamental question: Why are some people and organizations more innovative, more influential, and more profitable than others? Why do some command greater loyalty from customers and employees alike? Even among the successful, why are so few able to repeat their success over and over? People like Martin Luther King Jr., Steve Jobs, and the Wright Brothers had little in common, but they all started with WHY. They realized that people won\'t truly buy into a product, service, movement, or idea until they understand the WHY behind it. START WITH WHY shows that the leaders who\'ve had the greatest influence in the world all think, act, and communicate the same way -- and it\'s the opposite of what everyone else does. Sinek calls this powerful idea The Golden Circle, and it provides a framework upon which organizations can be built, movements can be led, and people can be inspired. And it all starts with WHY.',
-      rating: 5
+      rating: 4
     },
     
   ];
