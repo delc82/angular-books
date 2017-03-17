@@ -7,4 +7,4 @@ const APP_ROUTER: Routes = [
     {path: 'book/:id', component: BookComponent}
 ];
 
-export const router = RouterModule.forRoot(APP_ROUTER);
+export const routes = RouterModule.forRoot(APP_ROUTER);
