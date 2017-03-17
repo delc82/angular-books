@@ -9,7 +9,7 @@ import { BooksService } from '../../shared/books.service';
 })
 export class BookComponent implements OnInit {
   id: number;
-  sub: any;
+  private sub: any;
   books = [];
 
   constructor(private route: ActivatedRoute, private booksService: BooksService) { }
@@ -20,7 +20,7 @@ export class BookComponent implements OnInit {
     this.sub = this.route.params.subscribe(params => {
        this.id = +params['id'];
     });
-    
+
   }
 
 }
