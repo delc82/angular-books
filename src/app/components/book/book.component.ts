@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router'; 
 import { BooksService } from '../../shared/books.service';
+import { Book } from '../../shared/book.model';
 
 @Component({
   selector: 'app-books',
@@ -11,11 +12,12 @@ import { BooksService } from '../../shared/books.service';
 export class BookComponent implements OnInit {
   id: number;
   private sub: any;
-  books = [];
+  books: Book[] = [];
 
   constructor(private route: ActivatedRoute, private booksService: BooksService) { }
 
   ngOnInit() {
+
     this.books = this.booksService.getBooks();
 
     this.sub = this.route.params.subscribe(params => {

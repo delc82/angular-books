@@ -2,5 +2,5 @@
   <h2 class="book-title">{{books[id].title}}</h2>
   <h3>Description:</h3>
   <p>{{books[id].description}}</p>
-  <p><strong>Rating:</strong> {{books[id].rating}}</p>
+  <p><strong>Rating:</strong> <ngb-rating [(rate)]="books[id].rating" max="5"></ngb-rating> ({{books[id].rating}})</p>
 </div>
