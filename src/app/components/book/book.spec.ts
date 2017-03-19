@@ -5,6 +5,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ActivatedRoute } from '@angular/router';
 import { BookComponent } from './book.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 describe('BookComponent', () => {
   let component: BookComponent;
@@ -13,7 +14,7 @@ describe('BookComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
         declarations: [ BookComponent ],
-        imports: [ RouterTestingModule ],
+        imports: [ RouterTestingModule, NgbModule.forRoot() ],
         providers: [
         {
             provide: ActivatedRoute,
