@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routes } from './app.router';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
@@ -21,7 +22,8 @@ import { BooksService } from './shared/books.service';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routes
+    routes,
+    NgbModule.forRoot()
   ],
   providers: [BooksService],
   bootstrap: [AppComponent]
