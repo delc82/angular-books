@@ -1,5 +1,9 @@
 # Angular Books
 
+## Changelog
+Version 1.0 released!
+1. Added a better rating system so please do "npm install" so all dependencies get installed!
+
 After cloning, first run "npm install" to download all the dependencies.
 
 ## App scaffolding
