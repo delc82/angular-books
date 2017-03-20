@@ -1,8 +1,9 @@
 # Angular Books
 
 ## Changelog
-Version 1.0 released!
-1. Added a better rating system so please do "npm install" so all dependencies get installed!
+## [1.0] - 2017-03-19
+### Added
+- Better rating system so please do "npm install" so all dependencies get installed!
 
 <hr>
 
