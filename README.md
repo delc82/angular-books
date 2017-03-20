@@ -17,7 +17,7 @@ Look at [Setting Up Git](https://help.github.com/articles/set-up-git/) for instr
 
 ### Node.js - npm
 
-Go to [Node.js](https://nodejs.org/en/), download the latest version and install it in your computer. Node's package manager, npm will be installed along with it. They are used for installing dependencies, running the build steps, and running tests.
+Go to [Node.js](https://nodejs.org/en/) website, download the latest version and install it in your computer. Node's package manager, npm will be installed along with it. They are used for installing dependencies, running the build steps, and running tests.
 
 <hr>
 
