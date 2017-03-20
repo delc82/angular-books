@@ -4,6 +4,8 @@
 Version 1.0 released!
 1. Added a better rating system so please do "npm install" so all dependencies get installed!
 
+<hr>
+
 After cloning, first run "npm install" to download all the dependencies.
 
 ## App scaffolding
