@@ -1,6 +1,10 @@
 # Angular Books
 
 ## Changelog
+## [1.0.1] - 2017-03-21
+### Removed
+- jQuery and bootstrap.js
+
 ## [1.0] - 2017-03-19
 ### Added
 - Better rating system so please do "npm install" so all dependencies get installed!
